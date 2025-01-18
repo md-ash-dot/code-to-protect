@@ -11,6 +11,25 @@ body {
   width: auto;
 }
 
+#contactPage {
+  padding: 5vw;
+}
+
+#contactForm {
+  background-color: #283618;
+  color: #FEFAE0;
+  padding: 5vw;
+}
+
+#contactPage h1 {
+  font-family: var(--primary-font);
+}
+
+.modal-content {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
 @media (max-width: 767px) {
   .gi-image {
     object-fit: contain;

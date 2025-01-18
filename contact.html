@@ -45,35 +45,61 @@
         </div>
     </div>
     </nav>
-    <div class="container mt-5">
-        <h1 class="text-center mb-4">Contact Us</h1>
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
-                    <!-- Web3Forms Data -->
-                    <input type="hidden" name="access_key" value="351aee99-8156-46f4-bdb3-2471e386e9d1">
-                    <input type="hidden" name="subject" value="New contact form from code to protect">
-
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" id="message" rows="5" required></textarea>
-                    </div>
-                    <div class="d-grid">
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
     
+    <main>
+        <!-- Contact Form Section -->
+        <section id="contactPage" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <!-- Form -->
+                    <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                        <h1>Contact Us Form</h1>
+                        <p>Please send any questions through this form.</p>
+
+                        <!-- Web3Forms Data -->
+                        <input type="hidden" name="access_key" value="351aee99-8156-46f4-bdb3-2471e386e9d1">
+                        <input type="hidden" name="subject" value="New Query from Code to Protect">
+
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="contactName" class="form-label">Name:</label>
+                                <input class="form-control input-box" id="contactName" name="contactName" type="text"
+                                    placeholder="Enter name." required>
+                            </div>
+
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="contactEmail" class="form-label">Email Address:</label>
+                                <input class="form-control input-box" id="contactEmail" name="contactEmail" type="email"
+                                    placeholder="Enter email address." required>
+                            </div>
+
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="contactOnBehalf" class="form-label">On Behalf:</label>
+                                <input class="form-control input-box" id="contactOnBehalf" name="contactOnBehalf" type="text"
+                                    placeholder="Enter Persons name or N/A." required>
+                            </div>
+
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="contactReason" class="form-label">Reason:</label>
+                                <input class="form-control input-box" id="contactReason" name="contactReason" type="text"
+                                    placeholder="Enter Reason Slavery / Human Trafficking" required>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <label for="contactMessage" class="form-label">Message:</label>
+                                <textarea class="form-control input-box" rows="6" id="contactMessage" name="contactMessage"
+                                    placeholder="Enter message." required></textarea>
+                            </div>
+                        </div>
+
+                        <button id="enquiryReset" type="reset" class="btn">Reset</button>
+                        <button id="enquirySubmit" type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <!-- Footer -->
     <footer class="bg-light text-center text-lg-start mt-auto">
         <div class="container p-4">
