@@ -78,4 +78,6 @@ In the **Credits** section, we acknowledge the resources, tools, or inspirations
 - Any open-source libraries or frameworks
 - Any special mentions for contributors, teammates, or mentors
 
+- https://mapsvg.com/maps/world SVG vector map of the world
+
 ---
