@@ -18,7 +18,11 @@
         <h1 class="text-center mb-4">Contact Us</h1>
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <form>
+                <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                    <!-- Web3Forms Data -->
+                    <input type="hidden" name="access_key" value="351aee99-8156-46f4-bdb3-2471e386e9d1">
+                    <input type="hidden" name="subject" value="New contact form from code to protect">
+
                     <div class="mb-3">
                         <label for="name" class="form-label">Name</label>
                         <input type="text" class="form-control" id="name" required>
