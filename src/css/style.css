@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #map-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .info-box {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+  }
+  
+  .highlighted {
+    fill: green;
+    opacity: 0.5;
+  }
