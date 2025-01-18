@@ -15,10 +15,14 @@ document.addEventListener("DOMContentLoaded", () => {
           path.addEventListener("mouseenter", () => {
             const countryName = path.getAttribute("title");
             infoBox.textContent = countryName;
+            // Highlight the path on hover
+            path.classList.add("highlighted");
           });
   
           path.addEventListener("mouseleave", () => {
             infoBox.textContent = "Hover over a country";
+            // Remove the highlight when mouse leaves
+            path.classList.remove("highlighted");
           });
         });
       })

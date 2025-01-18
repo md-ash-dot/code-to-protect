@@ -25,3 +25,7 @@ body {
     font-size: 14px;
   }
   
+  .highlighted {
+    fill: green;
+    opacity: 0.5;
+  }
