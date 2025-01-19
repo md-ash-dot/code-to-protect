@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const mapContainer = document.getElementById("map-container");
   
     // Load the SVG dynamically
-    fetch("/map/worldmap.svg")
+    fetch("map/worldmap.svg")
       .then((response) => response.text())
       .then((svgData) => {
         mapContainer.innerHTML = svgData;
