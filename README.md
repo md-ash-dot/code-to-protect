@@ -1,31 +1,17 @@
-# code-to-protect
-
-National slavery and human trafficking prevention month hackathon
-
-# Wireframes
-
-
-
-
-
-
-
-# Team members
-
 # 🫂✨ Code to protect! ⛓️‍💥🚨
-
----
-
 ## **🎄 National slavery and human trafficking prevention month hackathon**
 
-### **🚀Deployment**
+
+# SUBMISSION
+
+## **🚀Deployment**
 
 The project is deployed and can be accessed at:  
 **https://md-ash-dot.github.io/code-to-protect/**
 
 ---
 
-### **Criteria**
+## **Criteria**
 
 In this section, we will briefly discuss how our team addressed the applicable criteria:
 
@@ -37,16 +23,16 @@ In this section, we will briefly discuss how our team addressed the applicable c
 
 ---
 
-## **🧑‍💻 About the Submission**
+# **🧑‍💻 About the Submission**
 
-### **Intro**
+## **Intro**
 
 One or two paragraphs providing an overview of our project.  
 This could include how our project embodies the **Code to protect** spirit and what makes it unique.
 
 ---
 
-### **Goal**
+## **Goal**
 
 The **Goal** section provides a concise summary of the main objective or purpose of the project described in this README. It addresses the following aspects:
 
@@ -56,6 +42,17 @@ The **Goal** section provides a concise summary of the main objective or purpose
 - 🥅 **Benefits:** How will this project make the holidays brighter, more inclusive, or more joyful?
 
 ---
+
+## User Stories
+
+
+
+
+## Wireframes
+
+
+
+
 
 ## **💻 Tech Stack**
 
@@ -70,6 +67,21 @@ For example:
 
 ---
 
+## Testing 
+
+
+
+
+## Bugs and fixing
+
+
+
+
+---
+
+
+
+
 ## **🌟 Credits**
 
 In the **Credits** section, we acknowledge the resources, tools, or inspirations used in this project, such as:
@@ -81,3 +93,19 @@ In the **Credits** section, we acknowledge the resources, tools, or inspirations
 - https://mapsvg.com/maps/world SVG vector map of the world
 
 ---
+
+# Team members
+
+- **Many thanks to the team members for the hard work and cooperation.**
+
+  - **Muhammed** - [GitHub](https://github.com/md-ash-dot), [LinkedIn](https://www.linkedin.com/in/muhammed-ashfaaq/)
+  Scrum Master/ Development / Documentation
+  - **Kristian** - [GitHub](https://github.com/KTC96), [LinkedIn](https://www.linkedin.com/in/kristian-cross-4976622b7/)
+  Scrum Master/ Development / Documentationad
+  - **Anthony** - [GitHub](https://github.com/anthonyjn08), [LinkedIn](www.linkedin.com/in/anthony-nelson8)
+  Design/ Development / Documentation
+  - **Louise** - [GitHub](https://github.com/Loudotcom), [LinkedIn](www.linkedin.com/in/louise-anderson-dev)
+   Design/ Development / Documentation
+  - **Prapti** - [GitHub](https://github.com/praptitambe), [LinkedIn](www.linkedin.com/in/prapti-tambe)
+   Design/ Development / Documentation
+  - **Nazek** - [GitHub](https://github.com/Nazek-Altayeb), [LinkedIn](https://www.linkedin.com/in/nazek-a-altayeb/)
