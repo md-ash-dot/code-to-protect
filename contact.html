@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" 
+        integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" 
+        crossorigin="anonymous">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">The Helpers</a>
+        <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="map.html">Map</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="get_involved.html">Get Involved</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+    
+    <main>
+        <!-- Contact Form Section -->
+        <section id="contactPage" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <!-- Form -->
+                    <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                        <h1>Contact Us Form</h1>
+                        <p>Please send any questions through this form.</p>
+
+                        <!-- Web3Forms Data -->
+                        <input type="hidden" name="access_key" value="351aee99-8156-46f4-bdb3-2471e386e9d1">
+                        <input type="hidden" name="subject" value="New Query from Code to Protect">
+
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="contactName" class="form-label">Name:</label>
+                                <input class="form-control input-box" id="contactName" name="contactName" type="text"
+                                    placeholder="Enter name." required>
+                            </div>
+
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="contactEmail" class="form-label">Email Address:</label>
+                                <input class="form-control input-box" id="contactEmail" name="contactEmail" type="email"
+                                    placeholder="Enter email address." required>
+                            </div>
+
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="contactOnBehalf" class="form-label">On Behalf:</label>
+                                <input class="form-control input-box" id="contactOnBehalf" name="contactOnBehalf" type="text"
+                                    placeholder="Enter Persons name or N/A." required>
+                            </div>
+
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="contactReason" class="form-label">Reason:</label>
+                                <input class="form-control input-box" id="contactReason" name="contactReason" type="text"
+                                    placeholder="Enter Reason Slavery / Human Trafficking" required>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <label for="contactMessage" class="form-label">Message:</label>
+                                <textarea class="form-control input-box" rows="6" id="contactMessage" name="contactMessage"
+                                    placeholder="Enter message." required></textarea>
+                            </div>
+                        </div>
+
+                        <button id="enquiryReset" type="reset" class="btn">Reset</button>
+                        <button id="enquirySubmit" type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start mt-auto">
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-lg-12">
+                <p class="mb-0">
+                    <a href="team.html" class="text-decoration-none">Meet the Team</a>
+                </p>
+                <p>Check out our project on 
+                <a href="https://github.com/md-ash-dot/code-to-protect" class="text-decoration-none" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center p-3 bg-light border-top">
+            This website is for educational purposes only. Information on this site is not intended to be used as a source of legal advice.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+     crossorigin="anonymous"></script>
+</body>
+</html>

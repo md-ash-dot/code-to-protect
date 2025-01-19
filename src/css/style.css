@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.gi-image {
+  display: block;
+  max-height: 400px;
+  height: auto;
+  width: auto;
+}
+
+#contactPage {
+  padding: 5vw;
+}
+
+#contactForm {
+  background-color: #283618;
+  color: #FEFAE0;
+  padding: 5vw;
+}
+
+#contactPage h1 {
+  font-family: var(--primary-font);
+}
+
+.modal-content {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+@media (max-width: 767px) {
+  .gi-image {
+    object-fit: contain;
+    display: block;
+    height: 200px;
+  }
+}
+
+@media (max-width: 991px) {
+  .gi-image {
+    object-fit: contain;
+    display: block;
+    height: 300px;
+  }
+
+  .touch-image {
+    object-fit: contain;
+    display: block;
+    height: 200px;
+  }
+}
+
+/* ----------------MAP STYLING---------------- */
+
+#map-container {
+width: auto;
+min-width: 100%;
+height: 100vh;
+overflow-x: auto;
+overflow-y: hidden;
+display: block;
+}
+
+
+.info-box {
+position: sticky;
+top: 200px;
+right: 20px;
+background: white;
+border: 1px solid white;
+border-radius: 5px;
+padding: 10px 15px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+font-size: 14px;
+}
+
+.highlighted {
+fill: green;
+opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+#map-container {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+}
+
