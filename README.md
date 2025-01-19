@@ -26,15 +26,16 @@ Our team addressed these applicable criteria:
 ## **Intro**
 Modern slavery and human trafficking are grave human rights violations that affect millions of people worldwide. This platform is designed to provide individuals, activists, and organizations with crucial resources to combat these crimes. Our mission is to raise awareness, provide educational materials, and connect people in need with relevant support services.
 
+
+## **Goal**
+The Goal of this project is to provide a platform where the victims of slavery and human trafficking can reach out for help and advice, with a section for awareness. following the criteria set out by the hackathon facilitators and incorporating the hard work, skills and abilities of each team member while enjoying the process of learning to develop new and unique software.
+
 This platform serves as:
 - An Information Hub: Educating the public about modern slavery, its impact, and how to recognize signs.
 - A Global Directory: Listing verified organizations across different regions that offer assistance and rehabilitation services.
 - A Support System: A place where survivors and vulnerable individuals can reach out for immediate help and be directed to appropriate
   support networks.
 - A Call to Action: Encouraging users to volunteer, donate, and report suspicious activities to help eradicate modern slavery.
-
-## **Goal**
-The Goal of this project is to provide a platform where the victims of slavery and human trafficking can reach out for help and advice, with a section for awareness. following the criteria set out by the hackathon facilitators and incorporating the hard work, skills and abilities of each team member while enjoying the process of learning to develop new and unique software.
 
 ## User Stories
 
@@ -79,7 +80,8 @@ The Goal of this project is to provide a platform where the victims of slavery a
 
 www.adobe.com/express/ 
 
-- Adobe express is a cloud-based design and prototyping tool that is widely used for creating user interfaces (UI) and user experience (UX) designs.
+- Adobe express is a cloud-based design and prototyping tool that is widely used for creating user interfaces (UI) and user experience
+  (UX) designs.
 
 
 ## **💻 Tech Stack**
@@ -122,12 +124,11 @@ To identify the source of bugs we used the developer Tools in various browsers (
 
 
 ## **🌟 Credits**
-
-- Any tutorials or articles referenced
-- Any open-source libraries or frameworks
-- Any special mentions for contributors, teammates, or mentors
-
-- https://mapsvg.com/maps/world SVG vector map of the world
+The following articles played a main role in our project, they were our references to raise awaireness among victims and share meaningful information and contacts.
+- [First to help you](https://www.first2helpyou.co.uk/raising-awareness-modern-slavery-and-human-trafficking/)
+- [National Crime Agency](https://www.nationalcrimeagency.gov.uk/what-we-do/crime-threats/modern-slavery-and-human-trafficking)
+- [Citizens advice](https://www.citizensadvice.org.uk/immigration/trafficking/report-human-trafficking/)
+- [Modern slavery help line](https://www.modernslaveryhelpline.org/report)
 
 
 # Team members
