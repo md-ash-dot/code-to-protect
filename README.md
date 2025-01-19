@@ -33,19 +33,15 @@ This could include how our project embodies the **Code to protect** spirit and w
 ---
 
 ## **Goal**
-
-The **Goal** section provides a concise summary of the main objective or purpose of the project described in this README. It addresses the following aspects:
-
-- 🥅 **Problem Statement:** A brief description of the holiday-related issue or gap our project aims to address.
-- 🥅 **Objective(s):** What does our project set out to achieve?
-- 🥅 **Target Audience:** Who will benefit from this project?
-- 🥅 **Benefits:** How will this project make the holidays brighter, more inclusive, or more joyful?
+The Goal of this project is to provide a platform where the victims of slavery and human trafficking can reach out for help and advice, with a section for awareness. following the criteria set out by the hackathon facilitators and incorporating the hard work, skills and abilities of each team member while enjoying the process of learning to develop new and unique software.
 
 ---
 
 ## User Stories
 
-
+* As a user, I want to be able to see the overall theme of the webpage from the welcome page.
+* As a user, I want to see the organization info of countries on map.
+* As a user, I should be able to see the contact us page so that I can fill the details to get support.
 
 
 ## Wireframes
@@ -55,9 +51,6 @@ The **Goal** section provides a concise summary of the main objective or purpose
 
 
 ## **💻 Tech Stack**
-
-In the **Tech** section, we provide information about the technology stack, dependencies, and any technical details related to the project.  
-For example:
 
 - Frontend: HTML, CSS, JavaScript
 - Backend: Python, Flask
@@ -109,3 +102,4 @@ In the **Credits** section, we acknowledge the resources, tools, or inspirations
   - **Prapti** - [GitHub](https://github.com/praptitambe), [LinkedIn](www.linkedin.com/in/prapti-tambe)
    Design/ Development / Documentation
   - **Nazek** - [GitHub](https://github.com/Nazek-Altayeb), [LinkedIn](https://www.linkedin.com/in/nazek-a-altayeb/)
+   Design/ Development / Documentation
