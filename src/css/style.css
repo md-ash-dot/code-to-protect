@@ -65,8 +65,8 @@ display: block;
 
 
 .info-box {
-position: fixed;
-top: 80px;
+position: sticky;
+top: 200px;
 right: 20px;
 background: white;
 border: 1px solid white;
