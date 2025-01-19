@@ -100,9 +100,11 @@ button:hover {
 
 #contactPage {
   padding: 3vw;
+  padding: 3vw;
 }
 
 #contactForm {
+  background-color: var(--primary-color);
   background-color: var(--primary-color);
   color: #fefae0;
   padding: 5vw;
@@ -111,7 +113,9 @@ button:hover {
 #contactPage h1 {
   font-family: var(--primary-font);
   color : #fefae0;
+  color : #fefae0;
 }
+
 
 
 
