@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap");
 
 /* CSS Variables */
 :root {
-    --primary-font: "Grenze Gotisch", sans-serif;
-    --secondary-font: "Macondo", cursive;
-    --primary-color: #3a4163;
-    --secondary-color: #cbe3ef;
-    --background-color: #edf3fb;
-    --button-color: #5aa8d6;    
+  --primary-font: "Grenze Gotisch", sans-serif;
+  --secondary-font: "Macondo", cursive;
+  --primary-color: #3a4163;
+  --secondary-color: #cbe3ef;
+  --background-color: #edf3fb;
+  --button-color: #5aa8d6;
 }
 
 body {
@@ -16,7 +16,12 @@ body {
   padding: 0;
   background-color: var(--background-color); /* Apply background color */
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--primary-color);
 }
 button {
@@ -28,12 +33,18 @@ button {
 }
 
 button:hover {
-  background-color: darken(var(--button-color), 10%); /* Optional: Darken button color on hover */
+  background-color: darken(
+    var(--button-color),
+    10%
+  ); /* Optional: Darken button color on hover */
 }
 
-.navbar, footer {
-  background-color: var(--button-color); /* Apply button color as background color */
-  color: var(--secondary-color);  /* Set the text color to secondary color */
+.navbar,
+footer {
+  background-color: var(
+    --button-color
+  ); /* Apply button color as background color */
+  color: var(--secondary-color); /* Set the text color to secondary color */
 }
 
 .gi-image {
@@ -43,13 +54,42 @@ button:hover {
   width: auto;
 }
 
+.january-container {
+  background: url("/src/images/floral-january.jpg") no-repeat center center;
+  object-fit: fill;
+  display: block;
+  height: 400px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.january-text {
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  align-content: center;
+}
+.card {
+  background: #edf3fb;
+  border: none;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  /* left: 50%; */
+  transform: translate(-50%, -50%);
+}
+
 #contactPage {
   padding: 5vw;
 }
 
 #contactForm {
-  background-color: var(--background-color);
-  color: var(--primary-color);
+  background-color: #283618;
+  color: #fefae0;
   padding: 5vw;
 }
 
@@ -103,30 +143,28 @@ button:hover {
   display: block;
 }
 
-
 .info-box {
-position: absolute;
-top: 300px;
-right: 20px;
-background: white;
-border: 1px solid white;
-border-radius: 5px;
-padding: 10px 15px;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-font-size: 14px;
+  position: absolute;
+  top: 300px;
+  right: 20px;
+  background: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
 }
 
 .highlighted {
-fill: green;
-opacity: 0.5;
+  fill: green;
+  opacity: 0.5;
 }
 
 @media (max-width: 768px) {
-#map-container {
+  #map-container {
     width: 100vw;
     height: 100vh;
     overflow-x: scroll;
     overflow-y: hidden;
+  }
 }
-}
-
