@@ -87,18 +87,26 @@ button:hover {
 /* ----------------MAP STYLING---------------- */
 
 #map-container {
-width: auto;
-min-width: 100%;
-height: 100vh;
-overflow-x: auto;
-overflow-y: hidden;
-display: block;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#map-container svg {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
 }
 
 
 .info-box {
-position: sticky;
-top: 200px;
+position: absolute;
+top: 300px;
 right: 20px;
 background: white;
 border: 1px solid white;
