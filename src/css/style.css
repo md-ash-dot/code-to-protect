@@ -6,7 +6,7 @@
     --secondary-font: "Macondo", cursive;
     --primary-color: #3a4163;
     --secondary-color: #cbe3ef;
-    --background-color: #ffffff;
+    --background-color: #edf3fb; /* Updated background color */
     --button-color: #5aa8d6;
     /* * #edf3fb */
     
@@ -16,10 +16,28 @@ body {
   font-family: var(--primary-font);
   margin: 0;
   padding: 0;
+  background-color: var(--background-color); /* Apply background color */
 }
 h1, h2, h3, h4, h5, h6 {
   color: var(--primary-color);
 }
+button {
+  background-color: var(--button-color);
+  color: var(--secondary-color); /* Set the text color to secondary color */
+  border: none; /* Optional: Remove default border */
+  padding: 10px 20px; /* Optional: Add padding */
+  cursor: pointer; /* Optional: Change cursor to pointer */
+}
+
+button:hover {
+  background-color: darken(var(--button-color), 10%); /* Optional: Darken button color on hover */
+}
+
+.navbar, footer {
+  background-color: var(--button-color); /* Apply button color as background color */
+  color: var(--secondary-color); /* Set the text color to secondary color */
+}
+
 .gi-image {
   display: block;
   max-height: 400px;
@@ -32,8 +50,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #contactForm {
-  background-color: #283618;
-  color: #FEFAE0;
+  background-color: var(--background-color);
+  color: var(--primary-color);
   padding: 5vw;
 }
 
