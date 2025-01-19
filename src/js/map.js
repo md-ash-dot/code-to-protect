@@ -1,8 +1,39 @@
 const countryInfo = {
   "Canada": {
+<<<<<<< HEAD
     organizations: "freedom fighters",
     email: "freedom@tmail.com",
     phone: "123-456-7890",
+=======
+    organizations: "Canadian Human Trafficking Hotline",
+    email: "hotline@ccteht.ca",
+    phone: "1-833-900-1010",
+  },
+  "United States": {
+    organizations: "Hope for justice",
+    email: "info.us@hopeforjustice.org",
+    phone: "(+1)615-356-046",
+  },
+  "United Kingdom": {
+    organizations: "The Freedom Fund",
+    email: "info@freedomfund.org",
+    phone: "+44 (0) 203 777 2200",
+  },
+  "Australia": {
+    organizations: "Anto-slavery Australia",
+    email: "asalegal@uts.edu.au",
+    phone: "0295148115",
+  },
+  "Japan": {
+    organizations: "Not For Sale Jpapan",
+    email: "japan@notforsalecampaign.org",
+    phone: "-",
+  },
+  "Denmark": {
+    organizations: "Danish Institute for Human Rights",
+    email: "mape@humanrights.dk",
+    phone: "+45 91 32 57 20",
+>>>>>>> 854b69f5feae0a8fb872e872638ec70a15318c87
   },
   // Add more countries here
 };
@@ -12,7 +43,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const mapContainer = document.getElementById("map-container");
   
     // Load the SVG dynamically
+<<<<<<< HEAD
     fetch("/map/worldmap.svg")
+=======
+    fetch("map/worldmap.svg")
+>>>>>>> 854b69f5feae0a8fb872e872638ec70a15318c87
       .then((response) => response.text())
       .then((svgData) => {
         mapContainer.innerHTML = svgData;
