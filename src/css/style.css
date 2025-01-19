@@ -6,10 +6,8 @@
     --secondary-font: "Macondo", cursive;
     --primary-color: #3a4163;
     --secondary-color: #cbe3ef;
-    --background-color: #edf3fb; /* Updated background color */
-    --button-color: #5aa8d6;
-    /* * #edf3fb */
-    
+    --background-color: #edf3fb;
+    --button-color: #5aa8d6;    
 }
 
 body {
