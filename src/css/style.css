@@ -33,7 +33,7 @@ button:hover {
 
 .navbar, footer {
   background-color: var(--button-color); /* Apply button color as background color */
-  color: var(--secondary-color); /* Set the text color to secondary color */
+  color: var(--secondary-color);  /* Set the text color to secondary color */
 }
 
 .gi-image {
