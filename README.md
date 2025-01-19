@@ -75,15 +75,11 @@ The Goal of this project is to provide a platform where the victims of slavery a
 ### Typography
 - Basicly, sans-serif is the font used and cursive is the back-up font if sans-serif fails to load.
 
-## Imagery
-* Team Logo 
-![Team Logo](src/images/teamLogo.png)
-
 ## Wireframes
 
-www.figma.com 
+www.adobe.com/express/ 
 
-- Figma is a cloud-based design and prototyping tool that is widely used for creating user interfaces (UI) and user experience (UX) designs.
+- Adobe express is a cloud-based design and prototyping tool that is widely used for creating user interfaces (UI) and user experience (UX) designs.
 
 
 ## **💻 Tech Stack**
@@ -123,10 +119,6 @@ This platform is built using modern web technologies to ensure accessibility, re
 ## Testing 
 The testing was completed mainly through team members, which allowed us to identify various bugs that needed addressing.
 To identify the source of bugs we used the developer Tools in various browsers (Console, Network, Performance tabs)
-
-## Bugs and fixing
-
-To Do ... 
 
 
 ## **🌟 Credits**
