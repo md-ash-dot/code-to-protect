@@ -53,14 +53,15 @@ button:hover {
   border-color: #FEFAE0;
 }
 
-.navbar,
-footer {
-  background-color: var(
-    --button-color
-  ); /* Apply button color as background color */
-  color: var(--secondary-color); /* Set the text color to secondary color */
+.navbar{
+  background-color: var(--button-color)!important; /* Apply button color as background color */
+  color: var(--secondary-color)!important; /* Set the text color to secondary color */
 }
 
+.footer {
+  background-color: var(--button-color)!important; /* Apply button color as background color */
+  color: var(--secondary-color)!important; /* Set the text color to secondary color */
+}
 .gi-image {
   display: block;
   max-height: 400px;
@@ -99,9 +100,11 @@ footer {
 
 #contactPage {
   padding: 3vw;
+  padding: 3vw;
 }
 
 #contactForm {
+  background-color: var(--primary-color);
   background-color: var(--primary-color);
   color: #fefae0;
   padding: 5vw;
@@ -110,7 +113,9 @@ footer {
 #contactPage h1 {
   font-family: var(--primary-font);
   color : #fefae0;
+  color : #fefae0;
 }
+
 
 
 
