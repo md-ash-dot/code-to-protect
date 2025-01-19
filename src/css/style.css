@@ -1,9 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-font: "Grenze Gotisch", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #3a4163;
+    --secondary-color: #cbe3ef;
+    --background-color: #ffffff;
+    --button-color: #5aa8d6;
+    /* * #edf3fb */
+    
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: var(--primary-font);
   margin: 0;
   padding: 0;
 }
-
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+}
 .gi-image {
   display: block;
   max-height: 400px;
