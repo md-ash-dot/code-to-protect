@@ -41,14 +41,6 @@ button {
       flex-direction: column;
   }
 
-  .bottom-buffer { margin-bottom:20px; }
-button:hover {
-  background-color: darken(
-    var(--button-color),
-    10%
-  ); /* Optional: Darken button color on hover */
-}
-
 /* Set colour of buttons */
 .btn {
   background-color: var(--button-color);
@@ -73,6 +65,8 @@ button:hover {
   font-family: var(--primary-font);
 }
 
+
+
 .footer {
   background-color: var(--button-color)!important; /* Apply button color as background color */
   color: var(--secondary-color)!important; /* Set the text color to secondary color */
@@ -91,10 +85,12 @@ button:hover {
 }
 
 .january-container {
+
   background: url("../images/floral-january.jpg") no-repeat center center;
   object-fit: fill;
   display: block;
   height: 100%;
+
   width: auto;
   display: flex;
   justify-content: center;
@@ -112,6 +108,7 @@ button:hover {
   background-color: #5aa8d6;
   ;
 }
+
 
 .card {
   background: #edf3fb;
