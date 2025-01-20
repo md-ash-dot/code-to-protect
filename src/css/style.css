@@ -81,10 +81,12 @@ button {
 }
 
 .january-container {
+
   background: url("../images/floral-january.jpg") no-repeat center center;
   object-fit: fill;
   display: block;
   height: 100%;
+
   width: auto;
   display: flex;
   justify-content: center;
@@ -102,6 +104,7 @@ button {
   background-color: #5aa8d6;
   ;
 }
+
 
 .card {
   background: #edf3fb;
