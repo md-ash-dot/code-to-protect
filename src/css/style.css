@@ -25,7 +25,7 @@ h6 {
   color: var(--primary-color);
 }
 
-.logo{
+.logo {
   width: 70px;
   height: 70px;
 }
@@ -44,35 +44,41 @@ button {
 /* Set colour of buttons */
 .btn {
   background-color: var(--button-color);
-  color: #FEFAE0;
-  border-color: #BC6C25;
+  color: #fefae0;
+  border-color: #bc6c25;
 }
 
 /* Set colour of submit button when hovered over */
 .btn:hover {
-  background-color: #FEFAE0;
-  color: #BC6C25;
-  border-color: #FEFAE0;
+  background-color: #fefae0;
+  color: #bc6c25;
+  border-color: #fefae0;
 }
 
-.navbar{
-  background-color: var(--button-color)!important; /* Apply button color as background color */
-  color: var(--secondary-color)!important; /* Set the text color to secondary color */
-  height: 80px; 
+.navbar {
+  background-color: var(
+    --button-color
+  ) !important; /* Apply button color as background color */
+  color: var(
+    --secondary-color
+  ) !important; /* Set the text color to secondary color */
+  height: 80px;
   display: flex;
   align-items: center; /* Center the content vertically */
-  font-size:1.2rem ;
+  font-size: 1.2rem;
   font-family: var(--primary-font);
 }
 
-
-
 .footer {
-  background-color: var(--button-color)!important; /* Apply button color as background color */
-  color: var(--secondary-color)!important; /* Set the text color to secondary color */
+  background-color: var(
+    --button-color
+  ) !important; /* Apply button color as background color */
+  color: var(
+    --secondary-color
+  ) !important; /* Set the text color to secondary color */
 }
 
-.hero-image{
+.hero-image {
   height: 400px;
   width: 100%;
 }
@@ -85,7 +91,6 @@ button {
 }
 
 .january-container {
-
   background: url("../images/floral-january.jpg") no-repeat center center;
   object-fit: fill;
   display: block;
@@ -104,11 +109,9 @@ button {
   align-content: center;
 }
 
-.get-involved{
+.get-involved {
   background-color: #5aa8d6;
-  ;
 }
-
 
 .card {
   background: #edf3fb;
@@ -136,12 +139,9 @@ button {
 
 #contactPage h1 {
   font-family: var(--primary-font);
-  color : #fefae0;
-  color : #fefae0;
+  color: #fefae0;
+  color: #fefae0;
 }
-
-
-
 
 @media (max-width: 767px) {
   .gi-image {
