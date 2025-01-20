@@ -20,7 +20,8 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">The Helpers</a>
+        <img class="logo" src="src/images/logo.png" alt="logo" />
+        <a class="navbar-brand fw-bold fs-3" href="index.html">The Helpers</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -31,7 +32,10 @@
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNav"
+          style="background-color: #5aa8d6">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">
@@ -53,21 +57,34 @@
     </nav>
 
     <!-- Hero Image -->
-    <div class="container"></div>
+    <div class="container container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <img
+            src="src/images/hero-image.jpg"
+            class="hero-image rounded pt-2 pb-2 mx-2"
+            alt="hands touching" />
+        </div>
+      </div>
+    </div>
 
-    <!-- main content -->
-    <div class="container">
+    <!-- 
+ main content -->
+    <div class="container container-fluid text-box pt-2 pb-2">
       <div class="row">
         <div class="col-lg-2">
-          <div class="january-container">
-            <h3 class="text-white text-center">
+          <div class="january-container rounded">
+            <h3 class="text-white text-center mx-2">
+              <br />
               January is National Human Trafficking & Slavery Awareness Month
             </h3>
           </div>
         </div>
-        <div class="col-lg-9">
-          <h1 class="text-center">Modern slavery and human trafficking</h1>
-          <p>
+        <div class="col-lg-8 mx-auto rounded">
+          <br />
+          <h1 class="text-center">Modern Slavery and Human Trafficking</h1>
+          <br />
+          <p class="text-center">
             Thousands of people across the UK are being held in squalor and
             undertaking forced labour. Some may be fleeing war zones, others may
             have financial problems, but all find dream turns to nightmare as
@@ -77,11 +94,10 @@
             trafficking is one of our highest priorities. We're working with
             partners in the UK and around the world to pursue offenders and
             safeguard victims.
+            <br />
           </p>
-          <h2 class="text-center">
-            Introduction to Modern Slavery and Human Trafficking
-          </h2>
-          <p>
+          <br />
+          <p class="text-center">
             Modern slavery and human trafficking are two of the most pressing
             issues facing our world today. They are often referred to as “hidden
             crimes” because they occur behind closed doors, making it difficult
@@ -89,7 +105,9 @@
             them. to justice.
           </p>
         </div>
-        <div class="col-lg-1 text-center">
+        <div
+          class="col-lg-2 text-center border border-secondary-subtle mx-auto rounded get-involved">
+          <br />
           <h3>Get Involved</h3>
           <p>
             See how you can help and get involved on our get involved
@@ -99,24 +117,24 @@
       </div>
     </div>
 
-    <div class="container align-content-center">
+    <div class="container container-fluid align-content-center">
       <div class="row">
-        <div class="col-lg-2"></div>
-        <div class="col-lg-9 card align-content-center">
-          <img
-            src="src/images/hands.png"
-            alt="hands reaching up"
-            height="300px"
-            width="400px" />
+        <div class="col-lg-6">
+          <br />
+          <hr />
           <h3 class="text-center">What is Modern Slavery?</h3>
-          <p>
+          <p class="text-center">
             Modern slavery can be defined as any form of forced labour or
             servitude that individuals are subjected to against their will. It
             includes a wide range of practices such as debt bondage, forced
             marriage, child labour, domestic servitude, and sexual exploitation.
           </p>
+        </div>
+        <div class="col-lg-6">
+          <br />
+          <hr />
           <h3 class="text-center">What is Human Trafficking?</h3>
-          <p>
+          <p class="text-center">
             Human trafficking is a form of modern slavery that involves the
             recruitment or transportation of individuals through force or
             deception for the purpose of exploitation. This can include sexual
@@ -124,12 +142,23 @@
             forced into criminal activities like drug smuggling.
           </p>
         </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-9 card align-content-center">
+        <img
+          class="mx-auto d-block"
+          src="src/images/hands.png"
+          alt="hands reaching up"
+          height="250"
+          width="350" />
         <div class="col-lg-1"></div>
       </div>
     </div>
 
     <!-- Footer -->
-    <footer class="bg-light text-center text-lg-start mt-auto">
+    <footer class="footer bg-light text-center text-lg-start mt-auto">
       <div class="container p-4">
         <div class="row">
           <div class="col-lg-12">
