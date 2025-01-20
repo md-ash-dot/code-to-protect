@@ -37,13 +37,6 @@ button {
   cursor: pointer; /* Optional: Change cursor to pointer */
 }
 
-button:hover {
-  background-color: darken(
-    var(--button-color),
-    10%
-  ); /* Optional: Darken button color on hover */
-}
-
 /* Set colour of buttons */
 .btn {
   background-color: var(--button-color);
