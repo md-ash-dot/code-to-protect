@@ -24,6 +24,11 @@ h5,
 h6 {
   color: var(--primary-color);
 }
+
+.logo{
+  width: 70px;
+  height: 70px;
+}
 button {
   background-color: var(--button-color);
   color: var(--secondary-color); /* Set the text color to secondary color */
@@ -39,12 +44,33 @@ button:hover {
   ); /* Optional: Darken button color on hover */
 }
 
-.navbar,
-footer {
-  background-color: var(
-    --button-color
-  ); /* Apply button color as background color */
-  color: var(--secondary-color); /* Set the text color to secondary color */
+/* Set colour of buttons */
+.btn {
+  background-color: var(--button-color);
+  color: #FEFAE0;
+  border-color: #BC6C25;
+}
+
+/* Set colour of submit button when hovered over */
+.btn:hover {
+  background-color: #FEFAE0;
+  color: #BC6C25;
+  border-color: #FEFAE0;
+}
+
+.navbar{
+  background-color: var(--button-color)!important; /* Apply button color as background color */
+  color: var(--secondary-color)!important; /* Set the text color to secondary color */
+  height: 80px; 
+  display: flex;
+  align-items: center; /* Center the content vertically */
+  font-size:1.2rem ;
+  font-family: var(--primary-font);
+}
+
+.footer {
+  background-color: var(--button-color)!important; /* Apply button color as background color */
+  color: var(--secondary-color)!important; /* Set the text color to secondary color */
 }
 
 .hero-image{
@@ -95,23 +121,25 @@ footer {
 }
 
 #contactPage {
-  padding: 5vw;
+  padding: 3vw;
+  padding: 3vw;
 }
 
 #contactForm {
-  background-color: #283618;
+  background-color: var(--primary-color);
+  background-color: var(--primary-color);
   color: #fefae0;
   padding: 5vw;
 }
 
 #contactPage h1 {
   font-family: var(--primary-font);
+  color : #fefae0;
+  color : #fefae0;
 }
 
-.modal-content {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-}
+
+
 
 @media (max-width: 767px) {
   .gi-image {
