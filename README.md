@@ -1,6 +1,7 @@
 # 🫂✨ Code to protect! ⛓️‍💥🚨
 ## **🎄 National slavery and human trafficking prevention month hackathon**
 
+![main-page](src/images/Website-on-devices.png)
 
 # SUBMISSION
 
