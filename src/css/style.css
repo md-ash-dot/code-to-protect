@@ -24,6 +24,11 @@ h5,
 h6 {
   color: var(--primary-color);
 }
+
+.logo{
+  width: 70px;
+  height: 70px;
+}
 button {
   background-color: var(--button-color);
   color: var(--secondary-color); /* Set the text color to secondary color */
@@ -56,6 +61,11 @@ button:hover {
 .navbar{
   background-color: var(--button-color)!important; /* Apply button color as background color */
   color: var(--secondary-color)!important; /* Set the text color to secondary color */
+  height: 80px; 
+  display: flex;
+  align-items: center; /* Center the content vertically */
+  font-size:1.2rem ;
+  font-family: var(--primary-font);
 }
 
 .footer {
