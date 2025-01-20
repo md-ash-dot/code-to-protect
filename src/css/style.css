@@ -68,6 +68,8 @@ button:hover {
   font-family: var(--primary-font);
 }
 
+
+
 .footer {
   background-color: var(--button-color)!important; /* Apply button color as background color */
   color: var(--secondary-color)!important; /* Set the text color to secondary color */
