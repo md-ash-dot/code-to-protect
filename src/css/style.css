@@ -36,7 +36,12 @@ button {
   padding: 10px 20px; /* Optional: Add padding */
   cursor: pointer; /* Optional: Change cursor to pointer */
 }
+.left, .right{
+  display: flex;
+      flex-direction: column;
+  }
 
+  .bottom-buffer { margin-bottom:20px; }
 button:hover {
   background-color: darken(
     var(--button-color),

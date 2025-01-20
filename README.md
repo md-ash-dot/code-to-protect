@@ -76,6 +76,11 @@ This platform serves as:
 ### Typography
 - Basicly, sans-serif is the font used and cursive is the back-up font if sans-serif fails to load.
 
+### Imagery
+- Team Logo
+
+![Logo](src/images/logo.png)
+
 ## Wireframes
 
 www.adobe.com/express/ 
@@ -122,6 +127,13 @@ This platform is built using modern web technologies to ensure accessibility, re
 The testing was completed mainly through team members, which allowed us to identify various bugs that needed addressing.
 To identify the source of bugs we used the developer Tools in various browsers (Console, Network, Performance tabs)
 
+## Validation
+
+
+
+## Performance
+
+* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/): [Results]()
 
 ## **🌟 Credits**
 The following articles played a main role in our project, they were our references to raise awaireness among victims and share meaningful information and contacts.
