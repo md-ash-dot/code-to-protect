@@ -9,8 +9,8 @@
 * The platform is deployed using GitHub Pages, making it accessible globally without additional hosting costs.
 * Continuous updates and improvements are made to enhance the user experience and security.
 
-The project is deployed and can be accessed at:  
-**https://md-ash-dot.github.io/code-to-protect/**
+[Click this link to view the Website.](https://md-ash-dot.github.io/code-to-protect/) 
+
 
 
 ## **Criteria**
@@ -130,11 +130,33 @@ To identify the source of bugs we used the developer Tools in various browsers (
 
 ## Validation
 
+1. W3C Markup Validator ( [Results](src/images/Home-validation-result.png) )
+    - The main page (Index) has passed the validation test with no error.
+
+1. W3C Markup Validator ( [Results](src/images/Involved-validation-result.png) )
+    - The get_involved page  has passed the validation test with no error.
+
+1. W3C Markup Validator ( [Results](src/images/Map-validation-result.png) )
+    - The map page  has passed the validation test with no error.
+
+1. W3C Markup Validator ( [Results](src/images/Contact-validation-result.png) )
+    - The contact page  has passed the validation test with no error.
+
+1. W3C Markup Validator ( [Results](src/images/Team-validation-result.png) )
+    - The team page  has passed the validation test with no error.
+    
+1. W3C CSS Validator ( [Results](src/images/style-validation-result.png) )
+    - The page has passed the validation test with no error.
+
+1. Jshint javascript validator ([Results](src/images/JS-validation-result.png))
+    - The page has passed the validation test with no error.
 
 
 ## Performance
 
-* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/): [Results]()
+The website performance was examined using the [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/)
+
+Click on [Results](src/images/Performance.png) to view the performance.
 
 ## **🌟 Credits**
 The following articles played a main role in our project, they were our references to raise awaireness among victims and share meaningful information and contacts.
