@@ -86,7 +86,7 @@ button:hover {
 }
 
 .january-container {
-  background: url("/src/images/floral-january.jpg") no-repeat center center;
+  background: url("../images/floral-january.jpg") no-repeat center center;
   object-fit: fill;
   display: block;
   height: 100%;
