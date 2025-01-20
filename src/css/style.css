@@ -24,6 +24,11 @@ h5,
 h6 {
   color: var(--primary-color);
 }
+
+.logo{
+  width: 70px;
+  height: 70px;
+}
 button {
   background-color: var(--button-color);
   color: var(--secondary-color); /* Set the text color to secondary color */
@@ -56,12 +61,23 @@ button:hover {
 .navbar{
   background-color: var(--button-color)!important; /* Apply button color as background color */
   color: var(--secondary-color)!important; /* Set the text color to secondary color */
+  height: 80px; 
+  display: flex;
+  align-items: center; /* Center the content vertically */
+  font-size:1.2rem ;
+  font-family: var(--primary-font);
 }
 
 .footer {
   background-color: var(--button-color)!important; /* Apply button color as background color */
   color: var(--secondary-color)!important; /* Set the text color to secondary color */
 }
+
+.hero-image{
+  height: 400px;
+  width: 100%;
+}
+
 .gi-image {
   display: block;
   max-height: 400px;
@@ -70,10 +86,10 @@ button:hover {
 }
 
 .january-container {
-  background: url("/src/images/floral-january.jpg") no-repeat center center;
+  background: url("../images/floral-january.jpg") no-repeat center center;
   object-fit: fill;
   display: block;
-  height: 400px;
+  height: 100%;
   width: auto;
   display: flex;
   justify-content: center;
@@ -86,6 +102,12 @@ button:hover {
   justify-content: center;
   align-content: center;
 }
+
+.get-involved{
+  background-color: #5aa8d6;
+  ;
+}
+
 .card {
   background: #edf3fb;
   border: none;
