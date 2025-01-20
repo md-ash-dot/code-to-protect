@@ -36,6 +36,10 @@ button {
   padding: 10px 20px; /* Optional: Add padding */
   cursor: pointer; /* Optional: Change cursor to pointer */
 }
+.left, .right{
+  display: flex;
+      flex-direction: column;
+  }
 
 /* Set colour of buttons */
 .btn {
